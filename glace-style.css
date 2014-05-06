@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+body
+{
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	background-position-y: -200px;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background-color: rgb(110, 182, 255);
+	padding: 20px;
+}
+
+.header td
+{
+	font-family: Abel;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff;
+	color: #206EAC;
+	vertical-align: top;
+}
+
+.header a{
+	color: #206EAC;
+	text-decoration: none;
+}
+
+.header .currentpage {
+	color: #fff;
+	text-shadow: none;
+}
+
+.header table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 800px;
+}
+
+.content
+{
+	color: #000;
+	width: 800px;
+	padding: 20px;
+	margin:0 auto;
+	background-color: rgba(255,255,255,.2);
+}
+
+h3 
+{
+	font-family: Abel;
+	color: #0D519B;
+	text-shadow: 0.05em 0.05em 0.05em #739AC5;
+	font-size: 20px;
+}
+h4
+{	
+	color: #000;
+}
+#logo {
+	width: 168px;
+	height: 60px;
+}
+#teamt td {
+	vertical-align: top;
+}
+
+.subheadings {
+	text-align: left;
+	font-family: "Lato";
+	font-size: 12px;
+	text-shadow: none;
+}
